@@ -1,0 +1,27 @@
+name: lab2
+description: A new Flutter project.
+
+publish_to: 'none' # Detta är standard om du inte ska publicera paketet.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+  # Du kan lägga till fler paket här om det behövs senare.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/recipes/
+    - assets/images/
